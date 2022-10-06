@@ -24,6 +24,6 @@ def get_data():
         stock_symbol = get_stock_symbol(url)
         response = requests.request("GET", url, headers=headers)
         json_response = response.json()
-        json_response["stock_symbol"] = stock_symbol
+        json_response["ss"] = stock_symbol
         responses.append(json_response)
     return responses
