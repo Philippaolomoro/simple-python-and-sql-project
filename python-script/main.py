@@ -1,7 +1,9 @@
-
+from stocks.stock_prices import get_data
 
 def main():
-    print("Ready to go")
+    url = "pain"
+    new_url = get_data()
+    print(new_url)
 
 if __name__ == "__main__":
     main()
