@@ -1,4 +1,4 @@
-# SIMPLE PYTHON AND SQL QUERIES
+# SIMPLE PYTHON SCRIPT AND SQL QUERIES
 
 This project contains two distinct sub projects:
 
